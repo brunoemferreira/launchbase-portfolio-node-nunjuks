@@ -49,15 +49,12 @@ Esse projeto de Portfólio foi desenvolvido utilizando nunjuks uma template engi
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/brunoemferreira/pitu.git
-
-# Acesse a pasta backend
-$ cd backend
+$ git clone https://github.com/brunoemferreira/launchbase-portfolio-node-nunjuks.git
 
 # execute o comando
 $ yarn start
 ou
 $ npm start
 
-# O servidor inciará na porta:3000
+# O servidor inciará na porta:5000
 ```
