@@ -10,15 +10,6 @@
   <a href="#images">Imagens do Desafio Finalizado</a>
 </p>
 
-<p align="center">
-  <a href="https://rocketseat.com.br">
-    <img alt="Made by Bruno Eduardo" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
-  </a>
-  <a href="LICENSE" >
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
-  </a>
-</p>
-
 <h2 id="sobre"> 🚀 Sobre o Projeto</h2>
 
 Esse projeto de Portfólio foi desenvolvido utilizando nunjuks uma template engine rodando juntamente com um backend em nodejs, consultando dinâmicamente um objeto com dados existente dentro do projeto, para visualização das informações do portfólio e da página Sobre.
