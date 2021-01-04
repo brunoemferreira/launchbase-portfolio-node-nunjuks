@@ -1,0 +1,43 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+  <title>Portfólio - Bruno Eduardo</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+{% endblock %}
+
+{% block content %}
+
+  <div id="wrapper">
+    <h1>Portfólio</h1>
+  </div>
+
+  <section class="cards">
+    {% for item in items %}
+      <div class="card" id="{{ item.id }}">
+        <div class="card__image_container {{'featured-wrapper' if item.featured}}">
+          <img src="https://img.youtube.com/vi/nDN4JRbFEns/maxresdefault.jpg" alt="{{ item.title }}">
+          {% if item.featured %}
+            <div class="featured">
+              Featured
+            </div>
+          {% endif %}
+        </div>
+        <div class="card__content">
+          <p>{{ item.title }}</p>
+        </div>
+        <div class="card__info">
+          <p>{{ item.duration }}</p>
+          <p class="card__price">
+            {{ item.price }}
+          </p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<script src="/script.js"></script>
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+  <title>Sobre - Bruno Eduardo</title>
+{% endblock %}
+
+{% block content %}
+
+  <div id="wrapper">
+    <img src="{{about.avatar_url}}" alt="{{about.name}}">
+    <h1>{{ about.name }}</h1>
+    <h2>{{ about.role }}</h2>
+    <p>{{ about.description }}</a>
+  </p>
+</div>
+
+<div id="links-footer" class="links">
+  <a href="{{about.links[0].url}}" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="{{about.links[1].url}}" target="_blank">
+    <i class="fab fa-linkedin"></i>
+  </a>
+</div>
+
+{% endblock %}
