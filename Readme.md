@@ -12,7 +12,7 @@
 
 <h2 id="sobre"> 🚀 Sobre o Projeto</h2>
 
-Esse projeto de Portfólio foi desenvolvido utilizando nunjuks uma template engine rodando juntamente com um backend em nodejs, consultando dinâmicamente um objeto com dados existente dentro do projeto, para visualização das informações do portfólio e da página Sobre.
+Esse projeto de Portfólio foi desenvolvido utilizando nunjuks uma template engine rodando juntamente com um backend em nodejs, consultando dinâmicamente um objeto com dados existente dentro do projeto, para visualização das informações do portfólio e da página Sobre. 
 
 <h2 id="images"> 🖼️ Imagens do Projeto Finalizado</h2>
 
